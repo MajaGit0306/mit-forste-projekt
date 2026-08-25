@@ -1,0 +1,35 @@
+body {
+  letter-spacing: 0.2px;
+  line-height: 1.5em;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.gridCenter {
+  display: grid;
+  place-items: center;
+}
+.boxCode {
+  background-color: rgb(225, 225, 225);
+  width: 80vw;
+  border: 1px solid black;
+  padding: 0.2em 5vw 0.2em 5vw;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height: 0.6em;
+}
+.hlText {
+  color: rgb(240, 38, 112);
+}
+
+.comment {
+  color: grey;
+}
+a {
+  color: rgb(240, 38, 112);
+}
+strong {
+  color: rgb(240, 38, 112);
+}
