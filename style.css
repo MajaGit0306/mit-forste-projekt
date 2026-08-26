@@ -1,35 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a, strong, .hlText {
+  color: rgb(236, 16, 96);
+}
+
 body {
   letter-spacing: 0.2px;
   line-height: 1.5em;
+  width: 100vw;
+  padding: 4em 20vw 40em 20vw;
+  background-color: rgb(241, 241, 241);
+  display: grid;
+  place-items: center;
 }
-p {
+header {
+  padding: 0 0 0 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(208, 208, 208);
+  width: 100vw;
+}
+p, a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 20px;
+  line-height: 2em;
+}
+h1 {
+  text-align: center;
+  margin: 0 0 1em 0;
+  font-size: 50px;
+}
+h2 {
+  margin: 3em 0 0.5em 0;
+  font-size: 35px;
+  text-align: center;
+  background-color: rgba(236, 16, 97, 0.493);
+  padding: 10px;
+  color: white;
+}
+h3 {
+  font-size: 27px;
+  margin: 3em 0 0.5em 0;
 }
 .gridCenter {
   display: grid;
   place-items: center;
 }
+.answer {
+  color: green;
+}
 .boxCode {
   background-color: rgb(225, 225, 225);
-  width: 80vw;
+  width: 30vw;
   border: 1px solid black;
   padding: 0.2em 5vw 0.2em 5vw;
   border-radius: 3px;
   letter-spacing: 1px;
   word-spacing: 4px;
-  line-height: 0.6em;
+  line-height: 1.5em;
+  margin: 3em;
 }
-.hlText {
-  color: rgb(240, 38, 112);
+
+.faktaBoks {
+  background-color: rgb(192, 219, 189);
+  width: 40vw;
+  padding: 0.2em 5vw 0.2em 5vw;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height: 1.5em;
+  margin: 3em;
 }
 
 .comment {
   color: grey;
 }
-a {
-  color: rgb(240, 38, 112);
-}
-strong {
-  color: rgb(240, 38, 112);
+
+.button {
+  display: grid;
+  margin: 1em;
+  background-color: rgb(240, 38, 112);
+  color: white;
+  padding: 7px;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  width: 40vw;
 }

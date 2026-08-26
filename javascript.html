@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noter for Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <p><a href="index.html">Startside</a> > <a href="javascript.html">Javascript</a></p>
+</header>
+<body>
+  <div>
+    <h2>Syntax</h2>
+    <p>Man kan bruge <strong>var</strong> eller <strong>let</strong> til at lave dem. var brugte man i gamle dage og let er den moderne måde. Når du tildeler let en værdi, så kalder du det <strong>literals</strong> (let = 5;). Der er flere forskellige literals fx <strong>numbers</strong> og <strong>strings</strong>. Hvis det er tekst, skal der sættes doble kolon eller single kolon udenom. Arithmetic operators bruges til at regne noget ud (+,-,*). Assignment operators er noget som tildeler en værdi (=). En expression er en kombination af variabler og operators som udgører en værdi. Et JS navn skal starte med et bogstav, et dollartegn eller underscore.</p>
+    <a href="https://www.w3schools.com/js/js_syntax.asp">https://www.w3schools.com/js/js_syntax.asp</a>
+  </div>
+
+  <div>
+    <h2>Statements</h2>
+    <p><strong>Statements</strong> er en liste af instruktioner, som computeren udføre. Semikolon seperere statements, så de kan også laves på én linje, men i ret praksis, så har de hver sin linje. </p>
+
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p><span class="hlText">let</span> x, y, z;  <span class="comment">//statements 1</span></p>
+        <p>x = 5; <span class="comment">//statements 2</span></p>
+        <p>y = 6; <span class="comment">//statements 3</span></p>
+        <p>z = x + y; <span class="comment">//statements 4</span></p>
+      </div>
+    </div>
+    <p>For at det er mest læsbart, så skal man helst undgå linjer, som er længere end 80 karaktere. Hvis den er længere end en linje, så skal den "knækkes" ved "="</p>
+    <a href="https://www.w3schools.com/js/js_statements.asp">https://www.w3schools.com/js/js_statements.asp</a>
+  </div>
+
+  <div>
+    <h2>Comments</h2>
+    <p>Kommentarer skal bruges til at forklare koden og gøre det mere læsbart, men det kan også bruges til at noget af koden ikke bliver udført. For at kommentere skal du bruge <span class="hlText">//</span></p>
+    <p>Ved flere linjer skal du bruge <span class="hlText">/* og */</span></p>
+  </div>
+
+  <div>
+    <h2>Variabler</h2>
+    <p>Variabler er containers for data, og når man laver en variabel så kaldes det "declaring a variable". Du kan erklære en variable med enten <strong>let</strong> eller <strong>const</strong></p>
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p><span class="hlText">let</span> carName;</p>
+      </div>
+    </div>
+    <p>For at giv en værdi til <strong>variablen</strong>, så skal du bruge "=" tegnet, som også kaldes <strong>assignment operator</strong>.</p>
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p>carName = <span class="hlText">"Tesla"</span>;</p>
+      </div>
+    </div>
+    <p>Hvis værdien aldrig skal ændres, så skal man bruge <strong>const</strong>.</p>
+    <h3>Én statement, mange variabler</h3>
+    <p>Man kan starter en statement med <strong>const</strong> eller <strong>var</strong> og seperere variablerne med kolon.</p>
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p><strong>let</strong> person = "Maja Andersen", carName = "Tesla", price = 200;</p>
+      </div>
+    </div>
+    <h3>Arithmetic</h3>
+    <p>Du kan også tilføje <strong>strings</strong> ved brug af <strong>+</strong> og <strong>=</strong></p>
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p><strong>let</strong> x = "Maja" + " " + "Thorsøe";</p>
+        <p>=</p>
+        <p class="answer">Maja Thorsøe</p>
+      </div>
+    </div>
+    <p>Hvis man sætter et nummer mellem kolontegn, så bliver resten af tallene også betegnet som strings.</p>
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p><strong>let</strong> x = "5" + 3 + 7</p>
+        <p>=</p>
+        <p class="answer">537</p>
+      </div>
+    </div>
+    <a href="https://www.w3schools.com/js/js_variables.asp">https://www.w3schools.com/js/js_variables.asp</a>
+  </div>
+
+  <div>
+    <h2>Operators</h2>
+    <div class="gridCenter">
+      <div class="faktaBoks">
+        <p>Assignment Operator <strong>=</strong> tildeler en værdi</p>
+        <p>Addition Operator <strong>+</strong> tilføjer en værdi</p>
+        <p>Multiplication Operator <strong>*</strong> lægger værdier sammen</p>
+        <p>Comparison Operator <strong>></strong> sammenligner værdier</p>
+      </div>
+    </div>
+    <p>man kan bruge <strong>+=</strong> til at tilføje en værdi til en variabel.</p>
+    <div class="gridCenter">
+      <div class="boxCode">
+        <p><strong>let</strong> text1 = "Jeg er sød";</p>
+        <p>text1 += "og smuk."</p>
+        <p>=</p>
+        <p class="answer">Jeg er sød og smuk.</p>
+      </div>
+    </div>
+    <p>find alle operators i linket forneden</p>
+    <a href="https://www.w3schools.com/js/js_operators.asp">https://www.w3schools.com/js/js_operators.asp</a>
+  </div>
+
+  <div>
+    <h2>Data Types</h2>
+    <p>En variabel kan have op til 8 typer data. 7 <strong>Primitive Data Types</strong> og en <strong>Object Data Type</strong>.</p>
+  </div>
+</body>
+</html>
